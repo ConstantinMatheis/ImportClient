@@ -13,11 +13,12 @@ public class Studio {
     public Studio() {
     }
 
-    public Studio(Long pk_studio_id, String headquarters, Integer founded_year) {
-
-        this.pk_studio_id = pk_studio_id;
+    public Studio(String headquarters, String countrycode, String postcode, Integer founded_year, String name) {
         this.headquarters = headquarters;
+        this.countrycode = countrycode;
+        this.postcode = postcode;
         this.founded_year = founded_year;
+        this.name = name;
     }
 
     public Long getPk_studio_id() {
@@ -75,4 +76,11 @@ public class Studio {
 //    public void setFilms(Set<Film> films) {
 //        this.films = films;
 //    }
+
+
+    @Override
+    public String toString() {
+        return pk_studio_id + ". " + name + " " + headquarters + "(" + countrycode + ", "
+                + postcode + "), " + "founded " + founded_year;
+    }
 }

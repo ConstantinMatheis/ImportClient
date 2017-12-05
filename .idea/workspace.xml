@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24aefbfe-957b-46b2-86cd-6bd85f65f6b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Actor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Actor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Film$Actors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Film.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/FilmWebServiceInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/FilmWebServiceService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Gender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Genre.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/GetAllFilms.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/GetAllFilmsResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/GetFilmsByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/GetFilmsByNameResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/ImportFilms.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/ImportFilmsResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Studio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/package-info.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImportFilmsClient.iml" afterPath="$PROJECT_DIR$/ImportFilmsClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/ActorsResourceClient.java" afterPath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/ActorsResourceClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java" afterPath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java" afterPath="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorsResourceClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActorsResourceClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/ActorsResourceClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="37" column="78" lean-forward="false" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+            <state relative-caret-position="105">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -73,8 +39,18 @@
       <file leaf-file-name="Actor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="300">
               <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudiosResourceClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -83,8 +59,8 @@
       <file leaf-file-name="Studio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="-637">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -112,13 +88,13 @@
       <list>
         <option value="$PROJECT_DIR$/import.xml" />
         <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/Actor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/generated/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Film.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/ActorsResourceClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Actor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java" />
       </list>
     </option>
   </component>
@@ -234,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ActorsResourceClient">
+  <component name="RunManager" selected="Application.StudiosResourceClient">
     <configuration name="ActorsResourceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -259,6 +235,25 @@
       <option name="MAIN_CLASS_NAME" value="at.technikumwien.films.Client" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="import.xml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ImportFilmsClient" />
+      <envs />
+    </configuration>
+    <configuration name="StudiosResourceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="at.technikumwien.films.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="at.technikumwien.films.StudiosResourceClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Milan IT 5652 1975 Pizza Productions International" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -349,13 +344,15 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.ActorsResourceClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StudiosResourceClient" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ActorsResourceClient" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.StudiosResourceClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ActorsResourceClient" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +372,7 @@
       <workItem from="1512404154066" duration="2816000" />
       <workItem from="1512407179518" duration="1663000" />
       <workItem from="1512408911033" duration="272000" />
-      <workItem from="1512419262521" duration="9067000" />
+      <workItem from="1512419262521" duration="11269000" />
     </task>
     <task id="LOCAL-00001" summary="Add dummy rest clients">
       <created>1512406528619</created>
@@ -402,7 +399,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17141000" />
+    <option name="totallyTimeSpent" value="19343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
@@ -417,12 +414,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4040404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5875421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.112794615" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6212121" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3989899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16835018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20485584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1555387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2367223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -659,22 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="92" lean-forward="false" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
@@ -686,10 +667,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Actor.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/at/technikumwien/films/generated/Gender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -704,8 +703,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/ActorsResourceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="37" column="78" lean-forward="false" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+        <state relative-caret-position="105">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="613" column="69" lean-forward="false" selection-start-line="613" selection-start-column="48" selection-end-line="613" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/model/Studio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/technikumwien/films/StudiosResourceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
         </state>
       </provider>
