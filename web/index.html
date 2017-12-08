@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        "use strict"; // leichter die fehler zu finden - compiler beschwert
+
+        var STUDIOS_RESOURCE_URL = "http://localhost:8080/Filmverwaltung/resources/studios";
+
+        $(document).ready(refresh); // refresh - callback methode wenn document is ready
+
+        function refresh() {
+//            alert("bin hier");
+            $.ajax({
+                url: STUDIOS_RESOURCE_URL,
+                type: "GET",
+                dataType: "json",
+                success: function (studiosList) {
+                    var html = "";
+                    studiosList.forEach(function (studio) {
+                        html += "<li onclick=\"showDetails(this.id)\"" + " id=\"" +studio.pk_studio_id +"\">"
+                            + studio.name + "</li>";
+                    });
+                    html = "<ul>" + html + "</ul>";
+
+                    $("#content").html(html);
+                }
+            });
+        }
+
+        function showDetails(id) {
+            var fullUrl = STUDIOS_RESOURCE_URL + "/" + id;
+            $.ajax({
+                url: fullUrl,
+                type: "GET",
+                dataType: "json",
+                success: function (studio) {
+                    var studioInfo = studio.name + "\n"
+                     + + studio.postcode + " " + studio.headquarters + ", " + studio.countrycode + "\n"
+                    + "Founded: " + studio.founded_year;
+                    alert(studioInfo);
+
+                }
+            });
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <!--<form>-->
+        <!--<input type="button" value="Refresh" onclick="refresh()">-->
+    <!--</form>-->
+    <div id="content"></div>
+</body>
+</html>
