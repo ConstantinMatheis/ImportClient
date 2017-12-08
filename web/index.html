@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <script src="jquery-3.2.1.min.js"></script>
     <script>
-        "use strict"; // leichter die fehler zu finden - compiler beschwert
+        "use strict";
 
         var STUDIOS_RESOURCE_URL = "http://localhost:8080/Filmverwaltung/resources/studios";
 
-        $(document).ready(refresh); // refresh - callback methode wenn document is ready
+        $(document).ready(refresh);
 
         function refresh() {
-//            alert("bin hier");
             $.ajax({
                 url: STUDIOS_RESOURCE_URL,
                 type: "GET",
@@ -24,7 +23,6 @@
                             + studio.name + "</li>";
                     });
                     html = "<ul>" + html + "</ul>";
-
                     $("#content").html(html);
                 }
             });
@@ -44,16 +42,11 @@
 
                 }
             });
-
         }
-
     </script>
 </head>
 
 <body>
-    <!--<form>-->
-        <!--<input type="button" value="Refresh" onclick="refresh()">-->
-    <!--</form>-->
     <div id="content"></div>
 </body>
 </html>
