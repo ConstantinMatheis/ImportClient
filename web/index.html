@@ -16,6 +16,9 @@
                 url: STUDIOS_RESOURCE_URL,
                 type: "GET",
                 dataType: "json",
+                headers: {
+                    Authorization: "Basic " + btoa("writer:123")
+                },
                 success: function (studiosList) {
                     var html = "";
                     studiosList.forEach(function (studio) {
@@ -34,6 +37,9 @@
                 url: fullUrl,
                 type: "GET",
                 dataType: "json",
+                headers: {
+                    Authorization: "Basic " + btoa("writer:123")
+                },
                 success: function (studio) {
                     var studioInfo = studio.name + "\n"
                      + + studio.postcode + " " + studio.headquarters + ", " + studio.countrycode + "\n"

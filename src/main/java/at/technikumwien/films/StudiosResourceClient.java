@@ -20,6 +20,7 @@ public class StudiosResourceClient {
 
         WebTarget target = ClientBuilder
                 .newClient()
+                .register(new RequestFilter("writer","123")) // todo get from command line parameter
                 .target("http://localhost:8080/Filmverwaltung/resources/studios");
 
         System.out.println("Studios BEFORE insert:");

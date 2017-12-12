@@ -12,6 +12,7 @@ public class Client {
             printUsage();
             return;
         }
+        PasswordAuthenticator.install("reader", "123");
         String xml = getXml(args[0]);
         FilmWebServiceInterface filmWebService = (new FilmWebServiceService()).getFilmWebServicePort();
         filmWebService.importFilms(xml);
