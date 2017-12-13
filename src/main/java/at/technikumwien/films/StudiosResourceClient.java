@@ -13,28 +13,24 @@ import java.util.List;
 public class StudiosResourceClient {
     public static void main(String[] args) {
         printUsage();
-        if(args.length < 5) {
-            printError("at least 5 arguments required!");
+        if(args.length < 7) {
+            printError("at least 7 arguments required!");
             return;
         }
 
         WebTarget target = ClientBuilder
                 .newClient()
-                .register(new RequestFilter("writer","123")) // todo get from command line parameter
+                .register(new RequestFilter(args[5],args[6]))
                 .target("http://localhost:8080/Filmverwaltung/resources/studios");
 
         System.out.println("Studios BEFORE insert:");
         printAllStudios(target);
 
         Integer year = parseYear(args[3]);
-        String name = "";
-        for(int i = 4; i< args.length; i++) {
-            name += args[i] + " ";
-        }
 
         Response response = target
                 .request()
-                .post(Entity.json(new Studio(args[0], args[1], args[2], year, name)));
+                .post(Entity.json(new Studio(args[0], args[1], args[2], year, args[4])));
 
         System.out.println("URI of inserted studio: " + response.getLocation());
         System.out.println("Studios AFTER insert:");

@@ -18,14 +18,14 @@ public class ActorsResourceClient {
 
     public static void main(String[] args) {
         printUsage();
-        if(args.length != 4) {
-            printError("at least 4 arguments required!");
+        if(args.length != 6) {
+            printError("at least 6 arguments required!");
             return;
         }
 
         WebTarget target = ClientBuilder
                 .newClient()
-                .register(new RequestFilter("writer","123")) // todo get from command line parameter
+                .register(new RequestFilter(args[4],args[5]))
                 .target("http://localhost:8080/Filmverwaltung/resources/actors");
 
         System.out.println("Actors BEFORE insert:");

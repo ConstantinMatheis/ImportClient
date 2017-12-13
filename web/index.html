@@ -17,7 +17,7 @@
                 type: "GET",
                 dataType: "json",
                 headers: {
-                    Authorization: "Basic " + btoa("writer:123")
+                    Authorization: "Basic " + btoa("reader:123")
                 },
                 success: function (studiosList) {
                     var html = "";
@@ -38,7 +38,7 @@
                 type: "GET",
                 dataType: "json",
                 headers: {
-                    Authorization: "Basic " + btoa("writer:123")
+                    Authorization: "Basic " + btoa("reader:123")
                 },
                 success: function (studio) {
                     var studioInfo = studio.name + "\n"

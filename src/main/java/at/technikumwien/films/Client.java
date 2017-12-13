@@ -8,11 +8,11 @@ import java.io.*;
 public class Client {
 
     public static void main(String[] args) {
-        if(args.length < 1) {
+        if(args.length < 3) {
             printUsage();
             return;
         }
-        PasswordAuthenticator.install("reader", "123");
+        PasswordAuthenticator.install(args[1], args[2]);
         String xml = getXml(args[0]);
         FilmWebServiceInterface filmWebService = (new FilmWebServiceService()).getFilmWebServicePort();
         filmWebService.importFilms(xml);
@@ -38,7 +38,6 @@ public class Client {
     }
 
     private static void printUsage() {
-        // todo
-        System.err.println("Wrong usage");
+        System.err.println("Usage: [programName] [path to xml] [username] [password]");
     }
 }
