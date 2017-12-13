@@ -1,20 +1,20 @@
 
-    <films>
-        <film title="hallllo" description="omg" genre="HORROR" length="112"
-               release_year="2017">
+    <movies>
+        <movie title="hallllo" description="omg" genre="HORROR" length="112"
+               releaseyear="2017">
             <studio name="Berlin Works" countrycode="DE" postcode="4565"/>
             <actors>
-                <actor first_name="Anna" last_name="Grumb" gender="FEMALE" birthday="1990-08-23"/>
-                <actor first_name="Mia" last_name="Trump" gender="FEMALE" birthday="1990-08-23"/>
+                <actor firstname="Anna" lastname="Grumb" sex="FEMALE" birthdate="1990-08-23"/>
+                <actor firstname="Mia" lastname="Trump" sex="FEMALE" birthdate="1990-08-23"/>
             </actors>
-        </film>
-            <film title="chchc" description="uuuu" genre="ACTION" length="999"
-               release_year="1998">
+        </movie>
+        <movie title="chchc" description="uuuu" genre="ACTION" length="999"
+               releaseyear="1998">
             <studio name="Bregenz Pro Studios" countrycode="AU" postcode="6532"/>
             <actors>
-                <actor first_name="Ted" last_name="Ericson" gender="MALE" birthday="1955-08-23"/>
-                <actor first_name="Jack" last_name="Buttle" gender="MALE" birthday="1977-08-23"/>
+                <actor firstname="Ted" lastname="Ericson" sex="MALE" birthdate="1955-08-23"/>
+                <actor firstname="Jack" lastname="Buttle" sex="MALE" birthdate="1977-08-23"/>
             </actors>
-        </film>
-    </films>
+        </movie>
+    </movies>
 

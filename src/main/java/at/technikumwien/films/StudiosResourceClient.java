@@ -47,7 +47,7 @@ public class StudiosResourceClient {
     }
 
     private static void printUsage() {
-        System.out.println("Input format: headquarters country_code postcode founded_year name(can_be_several_words)");
+        System.out.println("Input format: headquarters country_code postcode founded_year name");
     }
 
     private static void printError(String errorMessage) {

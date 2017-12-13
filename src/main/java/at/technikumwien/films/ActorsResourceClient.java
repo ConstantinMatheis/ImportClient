@@ -31,7 +31,7 @@ public class ActorsResourceClient {
         System.out.println("Actors BEFORE insert:");
         printAllActors(target);
 
-        Actor.Gender gender = parseGenderString(args[2]);
+        Actor.Sex gender = parseGenderString(args[2]);
         Date birthday = parseBirthdayString(args[3]);
 
         Response response = target
@@ -71,14 +71,14 @@ public class ActorsResourceClient {
         }
     }
 
-    private static Actor.Gender parseGenderString(String genderString) {
-        Actor.Gender gender = null;
+    private static Actor.Sex parseGenderString(String genderString) {
+        Actor.Sex gender = null;
         switch (genderString) {
             case "MALE":
-                gender = Actor.Gender.MALE;
+                gender = Actor.Sex.MALE;
                 break;
             case "FEMALE":
-                gender = Actor.Gender.FEMALE;
+                gender = Actor.Sex.FEMALE;
                 break;
             default:
                 printError("format for gender: MALE or FEMALE");

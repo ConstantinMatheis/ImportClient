@@ -1,26 +1,24 @@
 package at.technikumwien.films.model;
 
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Actor {
 
     private Long pk_actor_id;
-    private String first_name;
-    private String last_name;
-    private Date birthday;
-    private Gender gender;
+    private String firstname;
+    private String lastname;
+    private Date birthdate;
+    private Sex sex;
 //    private Set<Film> films = new HashSet<Film>(0);
 
     public Actor() {
     }
 
-    public Actor(String first_name, String last_name, Gender gender, Date birthday) {
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.gender = gender;
-        this.birthday = birthday;
+    public Actor(String first_name, String last_name, Sex sex, Date birthday) {
+        this.firstname = first_name;
+        this.lastname = last_name;
+        this.sex = sex;
+        this.birthdate = birthday;
     }
 
     public Long getPk_actor_id() {
@@ -31,28 +29,28 @@ public class Actor {
         this.pk_actor_id = pk_actor_id;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public String getFirstname() {
+        return firstname;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public Date getBirthdate() {
+        return birthdate;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setBirthdate(Date birthdate) {
+        this.birthdate = birthdate;
     }
 
 //    public Set<Film> getFilms() {
@@ -63,22 +61,22 @@ public class Actor {
 //        this.films = films;
 //    }
 
-    public Gender getGender() {
-        return gender;
+    public Sex getSex() {
+        return sex;
     }
 
-    public void setGender(Gender gender) {
-        this.gender = gender;
+    public void setSex(Sex sex) {
+        this.sex = sex;
     }
 
-    public enum Gender {
+    public enum Sex {
         MALE,
         FEMALE
     }
 
     @Override
     public String toString() {
-        return getPk_actor_id() + ". " + getFirst_name() + " " + getLast_name() + " " +
-                getGender() + " " + getBirthday();
+        return getPk_actor_id() + ". " + getFirstname() + " " + getLastname() + " " +
+                getSex() + " " + getBirthdate();
     }
 }
